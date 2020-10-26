@@ -1,11 +1,11 @@
-#SICP
+# SICP
 
 [論理学友の会](http://domuslogica.net/)主催のSICP読書会の自分用めも。
 
 ## Of directories
 
-excercises: 演習問題の回答
-notes: 気がついたことのめも（使うか不明）
+- excercises: 演習問題の回答
+- notes: 気がついたことのめも（使うか不明）
 
 ### Todo Excercise
 
