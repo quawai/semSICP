@@ -9,3 +9,4 @@
   )
 )
 
+(print (fuck-the-police 100 50 25)) ; 12500
