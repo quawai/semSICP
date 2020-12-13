@@ -7,11 +7,11 @@
       (+ (f (- n 1) (- k 1))
          (f (- n 1) k))))
 
-(bi-coefficient 0 0)
-(bi-coefficient 3 3)
-(bi-coefficient 4 2)
-(bi-coefficient 3 1)
-(bi-coefficient 3 2)
+(bi-coefficient 0 0) ; 1
+(bi-coefficient 3 3) ; 1
+(bi-coefficient 4 2) ; 6
+(bi-coefficient 3 1) ; 3
+(bi-coefficient 3 2) ; 3
 
 (define (fact n)
   (if (= n 0)
@@ -27,3 +27,5 @@
 (g 4 2)
 (g 3 1)
 (g 3 2)
+
+; same as above
