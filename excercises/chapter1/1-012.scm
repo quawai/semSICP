@@ -3,7 +3,8 @@
 
 (define (bi-coefficient n k) (f n k))
 (define (f n k)
-  (if (or (= n 0) (= k 0) (= n k)) 1
+  (if (or (= n 0) (= k 0) (= n k))
+      1
       (+ (f (- n 1) (- k 1))
          (f (- n 1) k))))
 
