@@ -1,0 +1,10 @@
+#lang racket
+
+
+(define (bi-coefficient n k) (f n k))
+(define (f n k)
+  (if (or (= n 0) (= k 0)) 1
+      (+ (f (- n 1) (- k 1)) (f (- n 1) k))))
+
+(bi-coefficient 0 0)
+(bi-coefficient 3 3)
